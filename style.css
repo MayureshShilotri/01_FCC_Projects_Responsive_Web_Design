@@ -1,4 +1,33 @@
 .main {
-  position: center;
   text-align: center;
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+#title {
+  text-align: center;
+  visibility: center;
+  padding: 10px;
+}
+#img-div {
+  background-color: #ffffff;
+  padding: 50px;
+  margin: 20px  20px  20px  20px;
+}
+
+#tribute-info {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  line-height: 1.6;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+#image {
+  display: block;
+  filter: grayscale(100%);
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
