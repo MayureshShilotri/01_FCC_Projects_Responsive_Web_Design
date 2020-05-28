@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  line-height: 32px;
+  font-family: sans-serif;
+  color: #111;
+  background-image: url("https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg");
+  background-size: cover;
+}
+
+form {
+  background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+  z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+  color: #fff;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 40 40 40 40;
+}
+
+.name-label {
+text-align: left;
+}
