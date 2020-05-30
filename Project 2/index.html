@@ -57,55 +57,51 @@ Once you're done, submit the URL to your working project with all its tests pass
   <p id="description">This is survey of people who have completed Responsive Web Design Certification</p>
   <script src="bundle.js"></script>
   <form id = "survey-form" action="">
-    <label for="name" id = "name-label" >Name</label><br>
-    <input type="text" name="" id="name" placeholder="John Doe" required><br>
+    <div class="form-group">
+      <label for="name" id = "name-label" >Name</label><br>
+      <input type="text" name="" id="name" placeholder="John Doe" required><br>
+    </div>
 
-    <label for="email" id = "email-label">Email</label><br>
-    <input type="email" name="" id="email" placeholder="john.doe@gmail.com" required>
+    <div class="form-group">
+      <label for="email" id = "email-label">Email</label><br>
+      <input type="email" name="" id="email" placeholder="john.doe@gmail.com" required>
+    </div>
 
-    <br>
+    <div class="form-group">
+      <label for="number" id="number-label">Age (Optional)</label><br>
+      <input type="number" name="" value="" id="number" required min = "1" max = "100" placeholder="34">
+    </div>
 
-    <label for="number" id="number-label">Age (Optional)</label><br>
-    <input type="number" name="" value="" id="number" required min = "1" max = "100" placeholder="34">
+    <div class="form-group">
+      <label for="cars">Choose a car:</label><br>
+      <select name="cars" id="dropdown">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+    </div>
 
-    <br>
+    <div class="form-group">
+      <label for="cars">Choose a Gender</label><br>
+      <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label><br>
+      <label for="female"><input type="radio" id="female" name="gender" value="female">Female</label><br>
+      <label for="other"><input type="radio" id="other" name="gender" value="other">Other</label>
+    </div>
 
-    <label for="cars">Choose a car:</label><br>
-    <select name="cars" id="dropdown">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
-    </select>
+    <div class="form-group">
+      <label for="cars">Choose a Vehicle</label><br>
+      <label for="vehicle1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> I have a bike</label><br>
+      <label for="vehicle2"><input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> I have a car</label><br>
+      <label for="vehicle3"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> I have a boat</label>
+    </div>
 
-    <br>
-
-    <p>Please select your gender:</p>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label><br>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
-      <input type="radio" id="other" name="gender" value="other">
-      <label for="other">Other</label>
-
-    <br>
-
-    <p>Please select your Vehicle:</p>
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-      <label for="vehicle1"> I have a bike</label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> I have a car</label><br>
-      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-      <label for="vehicle3"> I have a boat</label>
-
-    <br>
-
-    <p>Additional comments:</p>
-    <textarea name="comment" form="usrform">
-      Enter text here...
-    </textarea>
-
-    <br>
+    <div class="form-group">
+      <label for="cars">Comments</label><br>
+      <textarea name="comment" form="usrform">
+        Enter text here...
+      </textarea>
+    </div>
 
     <button type="submit" form="form1" value="Submit" id="submit">Submit</button>
 

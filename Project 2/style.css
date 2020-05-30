@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  line-height: 32px;
+  line-height: 12px;
   font-family: sans-serif;
   color: #111;
   background-image: url("https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg");
@@ -16,6 +16,42 @@ form {
   padding: 40 40 40 40;
 }
 
-.name-label {
-text-align: left;
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+#name {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#number {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submit {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;        
 }
