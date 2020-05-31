@@ -49,29 +49,31 @@ Once you're done, submit the URL to your working project with all its tests pass
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <script src="bundle.js"></script>
-  <header id="header">
-        <img src="https://www.eyerov.com/wp-content/uploads/2019/07/5a5dffe124d14a00019b16ee_YS-box-logo-01.png" alt="" height="60" id="header-img">
+  <div id="header" class="list-inline">
         <nav id = "nav-bar">
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#pricing" class="nav-link">Pricing</a>
-          <a href="#contact" class="nav-link">Contact</a>
+          <img src="https://www.eyerov.com/wp-content/uploads/2019/07/5a5dffe124d14a00019b16ee_YS-box-logo-01.png" alt="" height="60" id="header-img" class = "navbar-left">
+          <ul class="list-inline navbar-right">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
         </nav>
-  </header>
+  </div>
   <div id="home">
     Above the fold
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input name="email" value=""  id="email" type="email" placeholder="john.doe@gmail.com" required>
-      <input id="submit" type="submit" value="Get Started" class="btn">
+      <input id="submit" type="submit" value="Get Started" class="btn btn-primary">
     </form>
   </div>
-  <iframe src="" width="" height="" id="video"></iframe>
-  <div id="pricing">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ieTHC78giGQ" id="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div id="pricing" style="display:inline-flex; background-color:yellow; width:auto; height:auto">
     <div>1</div>
     <div>2</div>
     <div>3</div>
