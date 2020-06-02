@@ -42,42 +42,191 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 Once you're done, submit the URL to your working project with all its tests passing.
 -->
 
-<!doctype html>
-
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>freeCodeCamp - Responsive Web Design - Project 3 - Product Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+
 </head>
+
 <body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="bundle.js"></script>
-  <div id="header" class="list-inline">
-        <nav id = "nav-bar">
-          <img src="https://www.eyerov.com/wp-content/uploads/2019/07/5a5dffe124d14a00019b16ee_YS-box-logo-01.png" alt="" height="60" id="header-img" class = "navbar-left">
-          <ul class="list-inline navbar-right">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#pricing" class="nav-link">Pricing</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
+
+
+  <header id="header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="nav-bar">
+      <a class="navbar-brand" href="#" >
+        <img src="https://workshop.gumlet.com/wp-content/uploads/2020/05/greyatom_logo_30.png" height="30" class="d-inline-block align-top" alt="" loading="lazy" id="header-img">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#howitworks">How it works?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing1">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <div class="container-fluid">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <div class="row ">
+            <form action="https://www.freecodecamp.com/email-submit" class="form-row mx-auto" id="form" >
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="john.doe@gmail.com" name="email">
+              <input type="submit" value="Get Started" id = "submit" class="btn btn-primary mb-2">
+            </div>
+            </form>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <div class="container" id="features">
+    <div>
+      <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0">Center-aligned media</h5>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+            felis in faucibus.</p>
+          <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+      </div>
+      <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0">Center-aligned media</h5>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+            felis in faucibus.</p>
+          <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+      </div>
+      <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0">Center-aligned media</h5>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+            felis in faucibus.</p>
+          <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container"  id="howitworks">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen id="video"></iframe>
+      </div>
+    </div>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"  id=pricing1>
+      <h1 class="display-4">Pricing</h1>
+      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    </div>
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Free</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
           </ul>
-        </nav>
-  </div>
-  <div id="home">
-    Above the fold
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" value=""  id="email" type="email" placeholder="john.doe@gmail.com" required>
-      <input id="submit" type="submit" value="Get Started" class="btn btn-primary">
-    </form>
-  </div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ieTHC78giGQ" id="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <div id="pricing" style="display:inline-flex; background-color:yellow; width:auto; height:auto">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-  </div>
-  <div id="contact">Footer</div>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>30 users included</li>
+            <li>15 GB of storage</li>
+            <li>Phone and email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+        </div>
+      </div>
+      </div>
+
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+          <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 </body>
+
 </html>
