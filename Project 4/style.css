@@ -8,3 +8,11 @@
     margin-left: -175px;
     overflow-y: auto;
 }
+
+#main-doc {
+    top: 61px;
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
