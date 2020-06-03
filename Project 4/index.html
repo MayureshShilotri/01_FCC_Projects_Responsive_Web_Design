@@ -61,154 +61,41 @@ Once you're done, submit the URL to your working project with all its tests pass
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="bundle.js"></script>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar text-left" id="sidebar-wrapper">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar text-left sidebar-wrapper" id="navbar">
         <div class="sidebar-sticky" >
+          <header class="display-4">JS Docs</header>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#0a">
+              <a class="nav-link" href="#Dashboard">
                 Dashboard
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#1a">
+              <a class="nav-link" href="#Orders">
                 Orders
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#2a">
+              <a class="nav-link" href="#Products">
                 Products
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#3a">
+              <a class="nav-link" href="#Customers">
                 Customers
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#4a">
+              <a class="nav-link" href="#Reports">
                 Reports
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#5a">
+              <a class="nav-link" href="#Integrations">
                 Integrations
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#6a">
-                Current month
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#7a">
-                Last quarter
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#8a">
-                Social engagement
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#9a">
-                Year-end sale
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#10a">
-                Current month
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#11a">
-                Last quarter
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#12a">
-                Social engagement
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#13a">
-                Year-end sale
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#14a">
-                Current month
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#15a">
-                Last quarter
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#16a">
-                Social engagement
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#17a">
-                Year-end sale
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#18a">
-                Current month
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#19a">
-                Last quarter
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#20a">
-                Social engagement
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#21a">
-                Year-end sale
               </a>
             </li>
           </ul>
@@ -216,44 +103,81 @@ Once you're done, submit the URL to your working project with all its tests pass
       </nav>
 
       <main class="col-md-9 ml-sm-auto col-lg-10 px-4 scrollspy-example"  style="position: relative;" data-spy="scroll" data-target="#list-example" data-offset="0" id="main-doc">
-        <div class="jumbotron jumbotron-fluid" id="0a">
-          <div class="container">
-            <h1 class="display-4">Dashboard</h1>
+        <section class="jumbotron jumbotron-fluid main-section" id="Dashboard">
+            <header class="display-4">Dashboard</header>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+        </section>
 
-        <div class="jumbotron jumbotron-fluid" id="1a">
-          <div class="container">
-            <h1 class="display-4">Orders</h1>
+        <section class="jumbotron jumbotron-fluid main-section" id="Orders">
+            <header class="display-4">Orders</header>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+        </section>
 
-        <div class="jumbotron jumbotron-fluid" id="2a">
-          <div class="container">
-            <h1 class="display-4">Product</h1>
+        <section class="jumbotron jumbotron-fluid main-section" id="Products">
+            <header class="display-4">Products</header>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid" id="3a">
-          <div class="container">
-            <h1 class="display-4">Customers</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid" id="4a">
-          <div class="container">
-            <h1 class="display-4">Reports</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid" id="5a">
-          <div class="container">
-            <h1 class="display-4">Integrations</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+        </section>
+        <section class="jumbotron jumbotron-fluid main-section" id="Customers">
+            <header class="display-4">Customers</header>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+        </section>
+        <section class="jumbotron jumbotron-fluid main-section" id="Reports">
+            <header class="display-4">Reports</header>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+        </section>
+        <section class="jumbotron jumbotron-fluid main-section" id="Integrations">
+            <header class="display-4">Integrations</header>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+            &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code></pre>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          <section>
       </main>
     </div>
   </div>

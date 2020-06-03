@@ -1,18 +1,26 @@
-#sidebar-wrapper {
+.sidebar-wrapper {
     z-index: 1000;
     position: fixed;
     left: 175px;
-    top: 56px;
+    top: 0px;
     height: 100%;
     bottom: 0px;
     margin-left: -175px;
     overflow-y: auto;
 }
 
+.main-section {
+
+}
+
 #main-doc {
-    top: 61px;
+    top: 15px;
     position: absolute;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+}
+
+.nav-link {
+
 }
